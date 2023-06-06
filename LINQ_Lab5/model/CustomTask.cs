@@ -43,7 +43,7 @@ public class CustomTask
     }
     public void IssuedTask()
     {
-        currentState.IssuedTask(this);
+        currentState.IssuedTask();
     }
     
 }

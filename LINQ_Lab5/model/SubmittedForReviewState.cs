@@ -30,7 +30,7 @@ public class SubmittedForReviewState : TaskState
         Console.WriteLine("Error: Cannot mark the task as not executed. Task is already submitted for review.");
     }
     
-    public override void IssuedTask(CustomTask task)
+    public override void IssuedTask()
     {
         Console.WriteLine("Error: Cannot mark the task as issued.");
     }

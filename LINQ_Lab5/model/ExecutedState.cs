@@ -30,7 +30,7 @@ public class ExecutedState : TaskState
         Console.WriteLine("Error: Cannot mark the task as not executed. Task is already executed.");
     }
 
-    public override void IssuedTask(CustomTask task)
+    public override void IssuedTask()
     {
         Console.WriteLine("Error: Cannot mark the task as issued. Task is already executed.");
     }

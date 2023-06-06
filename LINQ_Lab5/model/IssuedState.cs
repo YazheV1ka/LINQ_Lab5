@@ -31,7 +31,7 @@ public class IssuedState : TaskState
         task.ChangeState(new NotExecutedState());
     }
 
-    public override void IssuedTask(CustomTask task)
+    public override void IssuedTask()
     {
         Console.WriteLine("Error: Task is already issued.");
     }

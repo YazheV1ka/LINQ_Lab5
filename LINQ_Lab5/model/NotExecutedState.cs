@@ -32,7 +32,7 @@ public class NotExecutedState : TaskState
         Console.WriteLine("Error: Task is already marked as not executed.");
     }
 
-    public override void IssuedTask(CustomTask task)
+    public override void IssuedTask()
     {
         Console.WriteLine("Error: Task is already marked as issued.");
     }
